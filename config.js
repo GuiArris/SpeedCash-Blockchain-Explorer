@@ -1,9 +1,9 @@
-var api = 'https://karbo.club/services/node_web';
-var apiList = ["https://node.karbo.org:32448", "https://node2.karbo.org:32448"];
+var api = 'http://myminingpool.online:8119/stats';
+var apiList = ["https://main01.getspeedcash.org:27771", "https://main02.getspeedcash.org:27771"];
 
-var blockTargetInterval = 240;
-var coinUnits = 1000000000000;
-var symbol = 'KRB';
+var blockTargetInterval = 60;
+var coinUnits = 100000000;
+var symbol = 'SCS';
 var refreshDelay = 30000;
 var blocksPerPage = 20;
 var whiteTheme = "css/light.css";
