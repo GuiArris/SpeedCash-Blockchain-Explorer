@@ -5,7 +5,7 @@ Block explorer for SpeedCash CryptoNote based cryptocurrency.
 
 1) It takes data from daemon karbowanecd. It should be accessible from the Internet. Run speedcashd with open port as follows:
 ```bash
-./karbowanecd --restricted-rpc --enable-cors=* --enable-blockchain-indexes --rpc-bind-ip=0.0.0.0 --rpc-bind-port=27772
+./speedcashd --restricted-rpc --enable-cors=* --enable-blockchain-indexes --rpc-bind-ip=0.0.0.0 --rpc-bind-port=27772
 ```
 
 2) Just upload to your website and change `api` variable in `config.js` and in `config.php` to point to your daemon.
